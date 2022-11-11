@@ -20,7 +20,7 @@ long factorial(long& number)
         std::cout << "Enter number, from which You would like to calculate the factorial: ";
         std::cin >> number;
         
-        std::cout << "Result is: " << factorial(number);
+        std::cout << "Result is: " << factorial(number) << std::endl;
         
         return 0;
     }
