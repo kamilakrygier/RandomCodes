@@ -1,12 +1,12 @@
 #include "iostream"
 
-long silnia (long& liczba)
+long factorial (long& number)
 {
     long result = 1;
-    while (liczba != 0)
+    while (number != 0)
     {
-        result *= liczba;
-        --liczba;
+        result *= number;
+        --number;
     }   
     return result;
 }
@@ -15,11 +15,11 @@ long silnia (long& liczba)
     {
         std::cout << "Welcome to the program that will ccalculate the factorial of a number!\n";
         
-        long liczba = 0;
+        long number = 0;
         std::cout << "Enter number, from which You would like to calculate the factorial: ";
-        std::cin >> liczba;
+        std::cin >> number;
         
-        std::cout << "Result is: " << silnia (liczba);
+        std::cout << "Result is: " << factorial (number);
         
         return 0;
     }
