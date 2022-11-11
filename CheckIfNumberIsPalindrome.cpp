@@ -28,7 +28,7 @@ int main()
     
     reverseNumber(numberReverse);
     
-    std::cout << std::boolalpha << isNumberPalindrome(number, numberReverse);
+    std::cout << std::boolalpha << isNumberPalindrome(number, numberReverse) << std::endl;
 
     return 0;
 }
